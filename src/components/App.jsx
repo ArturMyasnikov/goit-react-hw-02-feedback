@@ -27,13 +27,6 @@ class App extends Component {
           options={Object.keys(this.state)}
           onLeaveFeedback={this.counter}
         />
-        {/* <Statistics
-          good={good}
-          neutral={neutral}
-          bad={bad}
-          total={total}
-          positivePercentage={percent}
-        /> */}
         {total ? (
           <Statistics
             good={good}
