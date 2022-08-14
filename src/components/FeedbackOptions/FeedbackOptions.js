@@ -28,4 +28,5 @@ FeedbackOptions.propTypes = {
     neutral: PropTypes.string.isRequired,
     bad: PropTypes.string.isRequired,
   }),
+  onLeaveFeedback: PropTypes.func,
 };
